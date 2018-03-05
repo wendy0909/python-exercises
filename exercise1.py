@@ -19,3 +19,6 @@ if day == 0 or day == 6:
   print("Sleep in")
 else:
   print("Go to work")
+  
+temperature = int(input('Temperature in C?'))
+print(str(temperature * 1.8 + 32) + ' F')
