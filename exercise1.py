@@ -9,3 +9,7 @@ print("________'s favorite subject in school is ________.")
 name = input('What is name?')
 subject = input('What is subject?')
 print("{0}'s favorit subject in school is {1}.".format(name, subject))
+
+day = int(input('Day (0-6)? '))
+dayOfWeek = ['Sunday', 'Monday', 'Tuesday','Wednesday', 'Thursday', 'Friday', 'Saturday']
+print(dayOfWeek[day])
